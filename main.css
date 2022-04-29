@@ -1,0 +1,234 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    * {
+        font-family: "Pretendard" !important;
+        font-weight: 300;
+        color: #3B3B3B;
+    }
+
+    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+    body {
+        font-family: 'Pretendard';
+        background: #ffffff;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    a {
+        text-decoration-line: none;
+    }
+
+    /* Header/Blog Title */
+    .header {
+        width: 100%;
+        padding: 20px;
+        font-family: 'Pretendard';
+        position: relative;
+    }
+
+    .logo {
+        width: 60%;
+        max-width: 300px;
+        padding-bottom: 20px;
+    }
+
+
+    .title {
+        width: 40%;
+        text-align: right;
+        float: right;
+        font: normal normal bold 40px Pretendard;
+        letter-spacing: -1.2px;
+        color: #3B3B3B;
+    }
+
+    .title span {
+        font-size: 20px;
+        text-align: right;
+        color: #9F9F9F;
+        font-weight: 400px;
+    }
+
+
+    .st {
+        position: absolute;
+        top: 220px;
+        right: 10px;
+        width: 150px;
+        padding: 20px;
+    }
+
+    .cover {
+        width: 100%;
+        color: aqua;
+        background: url(https://ifh.cc/g/BrL7yn.jpg);
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 300px;
+        background-position: center;
+    }
+
+    .title2 {
+        text-align: left;
+        font: normal normal normal 16px Pretendard;
+        letter-spacing: -0.52px;
+        color: #747474;
+        line-height: 23px;
+        padding-bottom: 50px;
+        width: 60%;
+    }
+
+    .jm {
+        display: block;
+        font-size: 25px;
+        font-weight: 900;
+        color: #D82727;
+        padding: 5px 0;
+        margin-bottom: 10px;
+        border-top: 3px solid #D82727;
+    }
+
+    .card h5 {
+        font-size: 15px;
+        font-weight: 300;
+        color: grey;
+        padding-bottom: 20px;
+    }
+
+    .contents {
+        padding-top: 40px;
+    }
+
+    .count_box {
+        height: 70px;
+        width: 100%;
+        font-size: 20px;
+        border-bottom: 1pt solid #E6E6E6;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+
+    .count {
+        font-weight: 700;
+        color: #D82727;
+        padding-right: 10px;
+
+    }
+
+    .count_text {
+        font-weight: 700;
+        color: #3B3B3B;
+    }
+
+    .count_box p {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+    .count_box li {
+        font-weight: 800;
+        color: #D82727;
+        padding-right: 20px;
+        font-size: 25px;
+        list-style: none;
+    }
+
+    h4 {
+        padding: 10px;
+        background: #F2F2F2;
+        color: #747474;
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .text01 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #D82727;
+        padding: 10px 0;
+    }
+
+    .text02 {
+        padding: 10px 0;
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 25px;
+        border-bottom: 5px solid #EFEFEF
+    }
+
+
+    .cover02 {
+        width: 100%;
+        color: aqua;
+        background: url(p1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 300px;
+        background-position: center;
+    }
+
+    .p1 {
+        max-width: 0px;
+    }
+
+    .p_box {
+        width: 100%;
+        height: 200px;
+        background-image: url(./p1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .product-title {
+        text-align: center;
+        display: table;
+        width: 100%;
+        max-height: 200px;
+    }
+
+    .product-img-div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .product-img {
+        width: 100%;
+    }
+
+
+    /* Add a card effect for articles */
+    .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+    }
+
+    /* 반응형 웹 설정, 폭이 600px 이하인 경우 적용 */
+    @media screen and (max-width: 600px) {
+
+        body{
+            display: none;
+        }
+        
+        
+        
+        
+        }
+    }
+
+    /* 반응형 웹 설정, 폭이 400px 이하인 경우 적용 */
+    @media screen and (max-width: 400px) {}
