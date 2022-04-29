@@ -28,10 +28,10 @@ body {
 
 
 .logo {
-    width: 300px;
+    width: 70%;
+    max-width: 300px;
     display: block;
     margin: 30px auto;
-    max
 }
 
 .product-title {
