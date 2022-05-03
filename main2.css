@@ -4,7 +4,7 @@
 
  * {
      font-family: "Pretendard" !important;
-     font-weight: 300;
+     font-weight: 400;
      color: #333;
      letter-spacing: -0.3px;
      font-size: 14px;
@@ -16,7 +16,7 @@
  }
 
  #main div.target {
-     border-bottom: 1px solid #ccc;
+     border-bottom: 1px solid #ebebeb;
  }
 
 
@@ -132,7 +132,7 @@
      background-repeat: no-repeat;
      overflow: hidden;
      position: relative;
-     
+
  }
 
  .con2 {
@@ -210,7 +210,7 @@
 
 
  .link {
-     border-bottom: 1px solid #d4d4d4;
+     border-bottom: 1px solid #ccc;
      display: inline;
      padding: 12px 0;
      font-size: 17px;
@@ -342,19 +342,21 @@
      padding: 25px;
      font-weight: 500;
      margin: 5px;
-     width: 50%
+     width: 50%;
+     font-size: 19px;
  }
 
  .tg_menu {
      display: none;
      position: fixed;
-     right: 10px;
-     top: 10px;
-     padding: 10px;
+     right: 20px;
+     top: 20px;
+     padding: 25px;
      background: url(list_black_24dp.svg) no-repeat #fff;
+     background-size: 70%;
      background-position: center;
      border-radius: 10px;
-     box-shadow: 1px 1px 3px rgba(51, 51, 51, 0.47);
+     box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.2);
      width: 40px;
      height: 40px;
      z-index: 100;
@@ -363,21 +365,10 @@
  .tg_menu.x {
      background: url(close_black_24dp.svg) no-repeat #fff;
      background-position: center;
+     background-size: 70%;
      box-shadow: none;
  }
 
- .sns_in {
-     width: 660px;
-     margin: 0 auto 20px;
-     height: 250px;
- }
-
- .sns {
-     width: 200px;
-     background: #ccc;
-     margin: 10px;
-     float: left;
- }
 
  .sns img {
      width: 100%;
@@ -408,26 +399,74 @@
      padding-top: 32%;
      /* 1:1 Aspect Ratio */
      display: inline-block;
- }
 
-.img2:nth-child(3){
-    margin: 0 0.5%;
+ }
+#sns1{
+         background: url(sns.png);
+     background-size: contain;
+}
+#sns2{
+         background: url(sns2.jpg);
+     background-size: contain;
+}
+#sns3{
+         background: url(sns3.jpg);
+     background-size: contain;
 }
 
- @media (max-width: 1000px) {
-     
 
+
+
+ .img2:nth-child(3) {
+     margin: 0 0.5%;
+ }
+.logo2{
+    display: none;
+}
+
+#sns4{
+    
+    width: 50%;
+    padding-top: 50%;
+         background: url(IMG_3827.jpg);
+     background-size: contain;
+position: absolute;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+ @media (max-width: 800px) {
+#sns4{
+         background: url(IMG_3827.jpg);
+     background-size: contain;
+    
+}
      
+     
+     #sns4{
+    
+    width: 100%;
+    padding-top: 100%;
+         background: url(IMG_3827.jpg);
+     background-size: contain;
+position: relative;
+         margin-bottom: 70px;
+}
+     .logo{
+         display: none;
+     }
+
      .text1 p {
-         font-size: 15px;
-         color: #afafaf;
-         line-height: 23px;
-         width: 100%;
+         width: 80%;
+         font-size: 13px;
+         line-height: 18px;
      }
 
      .con1 {
          margin: 0 auto;
-         padding: 30px 30px;
+         padding: 30px 20px 90px 20px;
 
      }
 
@@ -435,9 +474,10 @@
          padding: 60px 20px;
      }
 
-     .logo {
-       width: 150px;
-         padding: 0 0 270px 0;
+     .logo2 {
+         width: 100px;
+         padding: 0 0 30px 0;
+         display: block;
      }
 
      .tg_menu {
@@ -446,7 +486,7 @@
 
 
      .text1 h1 {
-         font-size: 30px;
+         font-size: 25px;
          color: #D82727;
          font-weight: 700;
          border-bottom: 2px solid #D82727;
@@ -455,23 +495,18 @@
      }
 
      .text1 h2 {
-         font-size: 34px;
+         font-size: 29px;
          color: #333;
          font-weight: 100;
-         padding: 20px 0 10px 0;
+         padding: 50px 0 5px;
          z-index: 3;
      }
 
-     .text1 p {
-         font-size: 14px;
-         color: #7b7b7b;
-         line-height: 20px
-     }
 
      .text1 h2 span {
-         font-size: 34px;
+         font-size: 29px;
          color: #333;
-         font-weight:700;
+         font-weight: 700;
          padding: 40px 0 10px 0;
          z-index: 3;
      }
@@ -511,7 +546,7 @@
          line-height: 18px;
          font-size: 13px;
          text-align: left;
-         width: 100%;
+         width: 80%;
      }
 
 
@@ -524,36 +559,13 @@
          font-size: 14px;
      }
 
-     .card {
-         position: relative;
-         background: rgba(0, 0, 0, 0.83);
-         width: 100%;
-         overflow: hidden;
-         cursor: pointer;
-         float: left;
-         margin: 10px;
-     }
-
-     .sns_in {
-         width: 60%;
-         height: 560px;
-
-     }
-
-     .sns {
-         width: 100%;
-
-         background: #ccc;
-         margin: 5px 0;
-     }
-
      .link2 {
          background: #D82727;
          color: #fff;
          display: block;
          padding: 15px;
          font-weight: 500;
-         margin: 5px 0;
+         margin: 10px 0;
          width: 100%
      }
 
@@ -579,13 +591,13 @@
      h1 {
          font-size: 20px;
          padding: 5px 0;
-         font-weight: 600;
+         font-weight: 800;
          color: #AA8356;
          text-align: left;
      }
 
      .link {
-         border-bottom: 1px solid #e3e3e3;
+         border-bottom: 1px solid #ccc;
          display: inline;
          padding: 8px 0;
          font-size: 17px;
@@ -613,25 +625,26 @@
      }
 
      .img1 {
-         width:80%;
-         padding-top: 80%;
-        right: 0;
-         top:0px;
-         
+         width: 90%;
+         max-width: 500px;
+         padding-top: 90%;
+         right: 0;
+         top: 120px;
+
      }
 
 
 
 
-     
-      .img2 {
-     background-color: #eee;
-     width: 100%;
-     padding-top: 100%;
-     /* 1:1 Aspect Ratio */
-     display: inline-block;
-           margin:4px 0 ;
- }
+
+     .img2 {
+         background-color: #eee;
+         width: 100%;
+         padding-top: 100%;
+         /* 1:1 Aspect Ratio */
+         display: inline-block;
+         margin: 10px 0;
+     }
 
 
  }
