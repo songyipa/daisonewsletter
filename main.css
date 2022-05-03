@@ -1,234 +1,287 @@
-    * {
-        box-sizing: border-box;
-    }
+ * {
+     box-sizing: border-box;
+ }
 
-    * {
-        font-family: "Pretendard" !important;
-        font-weight: 300;
-        color: #3B3B3B;
-    }
+ * {
+     font-family: "Pretendard" !important;
+     font-weight: 300;
+     color: #333;
+     letter-spacing: -0.3px;
+     font-size: 14px;
+ }
 
-    @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+ #main {
+     width: 80%;
+     margin-left: 20%;
+ }
 
-    body {
-        font-family: 'Pretendard';
-        background: #ffffff;
-        max-width: 750px;
-        margin: 0 auto;
-    }
-
-    a {
-        text-decoration-line: none;
-    }
-
-    /* Header/Blog Title */
-    .header {
-        width: 100%;
-        padding: 20px;
-        font-family: 'Pretendard';
-        position: relative;
-    }
-
-    .logo {
-        width: 60%;
-        max-width: 300px;
-        padding-bottom: 20px;
-    }
+ #main div.target {
+     border-bottom: 1px solid #ccc;
+ }
 
 
-    .title {
-        width: 40%;
-        text-align: right;
-        float: right;
-        font: normal normal bold 40px Pretendard;
-        letter-spacing: -1.2px;
-        color: #3B3B3B;
-    }
 
-    .title span {
-        font-size: 20px;
-        text-align: right;
-        color: #9F9F9F;
-        font-weight: 400px;
-    }
+ #nav {
+     width: 20%;
+     height: 100%;
+     background: white;
+     float: left;
+     position: fixed;
+     border-right: 1px solid #ccc;
+ }
 
+ #nav nav {
+     background: white;
+ }
 
-    .st {
-        position: absolute;
-        top: 220px;
-        right: 10px;
-        width: 150px;
-        padding: 20px;
-    }
+ #nav a {
+     color: #333;
+     background: white;
+     padding: 20px;
+     text-align: left;
+     border-bottom: 1px solid #ccc;
+     text-decoration: none;
+     font-weight: 800;
+     display: block;
+     font-size: 15px;
+ }
 
-    .cover {
-        width: 100%;
-        color: aqua;
-        background: url(https://ifh.cc/g/BrL7yn.jpg);
-        background-repeat: no-repeat;
-        background-size: auto;
-        height: 300px;
-        background-position: center;
-    }
-
-    .title2 {
-        text-align: left;
-        font: normal normal normal 16px Pretendard;
-        letter-spacing: -0.52px;
-        color: #747474;
-        line-height: 23px;
-        padding-bottom: 50px;
-        width: 60%;
-    }
-
-    .jm {
-        display: block;
-        font-size: 25px;
-        font-weight: 900;
-        color: #D82727;
-        padding: 5px 0;
-        margin-bottom: 10px;
-        border-top: 3px solid #D82727;
-    }
-
-    .card h5 {
-        font-size: 15px;
-        font-weight: 300;
-        color: grey;
-        padding-bottom: 20px;
-    }
-
-    .contents {
-        padding-top: 40px;
-    }
-
-    .count_box {
-        height: 70px;
-        width: 100%;
-        font-size: 20px;
-        border-bottom: 1pt solid #E6E6E6;
-        margin-top: 10px;
-        padding: 10px 0;
-    }
-
-    .count {
-        font-weight: 700;
-        color: #D82727;
-        padding-right: 10px;
-
-    }
-
-    .count_text {
-        font-weight: 700;
-        color: #3B3B3B;
-    }
-
-    .count_box p {
-        font-size: 13px;
-        margin-top: 5px;
-    }
-
-    .count_box li {
-        font-weight: 800;
-        color: #D82727;
-        padding-right: 20px;
-        font-size: 25px;
-        list-style: none;
-    }
-
-    h4 {
-        padding: 10px;
-        background: #F2F2F2;
-        color: #747474;
-        margin-bottom: 20px;
-        font-weight: 300;
-        font-size: 12px;
-        line-height: 15px;
-    }
-
-    .text01 {
-        font-size: 20px;
-        font-weight: 700;
-        color: #D82727;
-        padding: 10px 0;
-    }
-
-    .text02 {
-        padding: 10px 0;
-        margin-bottom: 30px;
-        font-size: 16px;
-        line-height: 25px;
-        border-bottom: 5px solid #EFEFEF
-    }
+ #nav a span {
+     color: #D82727;
+     padding-right: 10px;
+     font-weight: 800;
+ }
 
 
-    .cover02 {
-        width: 100%;
-        color: aqua;
-        background: url(p1.jpg);
-        background-repeat: no-repeat;
+
+ #nav a:hover,
+ #nav a.active {
+     background: #D82727;
+     color: #fff;
+ }
+
+
+ #nav a:hover span,
+ #nav a.active span {
+     color: #fff;
+ }
+
+
+.logo{
+    width: 300px;
+    padding-top: 50px;
+    padding-bottom: 300px;
+    z-index: 100;
+}
+
+.text1 h1{
+    font-size: 40px;
+    color:#D82727;
+    font-weight: 800;
+    border-bottom: 3px solid #D82727;
+    display: inline;
+    padding: 4px 0;
+}
+
+.text1 h2{
+    font-size: 50px;
+    color: #333;
+    font-weight: 800;
+    padding: 70px 0 20px 0;
+}
+
+.text1 p{
+    font-size: 17px;
+    color: #7b7b7b;
+    line-height: 27px;
+}
+
+.img1{
+    width: 60%;
+    height: 600px;
+    background: #ccc;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.con1{
+    width: 100%;
+    background-size:contain;
+    background: url(cover2.jpg);
+    padding: 30px 10%;
+    background-repeat: no-repeat;
+}
+
+.con2{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 5%;
+}
+.text2{
+    position: relative;
+    padding: 30px 0;
+}
+.text2 h3{
+    font-weight: 800;
+    color: #D82727;
+    padding-right: 10px;
+    top:0;
+    position: absolute;
+    font-size: 17px;
+}
+
+.text2 h4{
+    display: inline;
+    font-size: 45px;
+    font-weight: 700;
+    position: absolute;
+    left:30px;
+    top: 0;
+}
+
+.con2 .text2 p{
+    padding: 50px 0 ;
+    color: #7b7b7b;
+    line-height: 23px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.product-title {
+    text-align: center;
+    display: table;
+    width: 100%;
+    max-height: 200px;
+    padding: 50px 0 10px 0;
+}
+
+.product-img-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-img {
+    width: 100%;
+    
+}
+
+h1{
+    font-size: 25px;
+    padding: 10px 0;
+    font-weight: 600;
+    color: #AA8356;
+    text-align: left;
+}
+
+p{
+    font-size: 19px;
+    line-height: 35px;
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+
+.link{
+    border-bottom: 1px solid #d4d4d4;display: inline;padding: 12px 0;font-size: 17px;font-weight: 900; text-align: center;
+    
+}
+
+.link a{
+    font-weight: 800;font-size: 20px;
+    text-align: center;
+}
+
+.link img{
+    width: 70px;padding: 8px 10px;
+}
+
+.swiper-container{
+    cursor: pointer;
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.swiper-button-prev{
+    position: absolute;
+}
+
+.swiper-button-prev-active{
+    color: red;
+}
+
+
+.swiper-slide{ 
+}
+.swiper-slide h4{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 
+}
+
+.swiper-slide img{
+    width: 100%;
+    padding: 10px 0;
+}
+
+:root {
+  --swiper-pagination-color: #D82727;
+  --swiper-pagination-bullet-size: 20px;
+  --swiper-pagination-bullet-width: 10px;
+  --swiper-pagination-bullet-height: 10px;
+  --swiper-pagination-bullet-inactive-color: #000;
+  --swiper-pagination-bullet-inactive-opacity: 0.2;
+  --swiper-pagination-bullet-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 6px;
+  --swiper-pagination-bullet-vertical-gap: 20px;
+}
+
+
+.SNS{
+    width: 300px;
+    height: 300px;
+    background: url(sns.png);
         background-size: cover;
-        height: 300px;
-        background-position: center;
-    }
+    transition: 0.3s ease-in;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+}
 
-    .p1 {
-        max-width: 0px;
-    }
+.SNS .SNS_hover h5{
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+}
 
-    .p_box {
-        width: 100%;
-        height: 200px;
-        background-image: url(./p1.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+.SNS .SNS_hover{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.72));
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    color: #fff;
+    position: relative;
+    
+}
 
-    .product-title {
-        text-align: center;
-        display: table;
-        width: 100%;
-        max-height: 200px;
-    }
-
-    .product-img-div {
-        display: table-cell;
-        vertical-align: middle;
-    }
-
-    .product-img {
-        width: 100%;
-    }
+.SNS .SNS_hover p{
+    color: #fff;
+    bottom: 0;
+    position: absolute;
+    font-weight: 600;
+}
 
 
-    /* Add a card effect for articles */
-    .card {
-        background-color: white;
-        padding: 20px;
-        margin-top: 20px;
-    }
 
-    /* Footer */
-    .footer {
-        padding: 20px;
-        text-align: center;
-        background: #ddd;
-        margin-top: 20px;
-    }
 
-    /* 반응형 웹 설정, 폭이 600px 이하인 경우 적용 */
-    @media screen and (max-width: 600px) {
-
-        body{
-                    width: 100%;
-        }
-        
-        
-        
-        
-        }
-    }
-
-    /* 반응형 웹 설정, 폭이 400px 이하인 경우 적용 */
-    @media screen and (max-width: 400px) {}
+.SNS:hover .SNS_hover{
+    opacity: 1;
+}
