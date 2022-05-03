@@ -106,21 +106,23 @@
  }
 
  .text1 p {
-     font-size: 15px;
-     color: #afafaf;
-     line-height: 23px;
+     font-size: 17px;
+     color: #848484;
+     line-height: 25px;
      width: 400px;
  }
 
  .img1 {
-     width: 500px;
-     height: 500px;
+     width: 50%;
+     padding-top: 50%;
      background: url(IMG_3885.jpg);
      background-size: cover;
      position: absolute;
      right: 0px;
      top: 0px;
      z-index: -1;
+     overflow: hidden;
+     background-position: center;
  }
 
  .con1 {
@@ -128,6 +130,9 @@
      margin: 0 auto;
      padding: 50px 10%;
      background-repeat: no-repeat;
+     overflow: hidden;
+     position: relative;
+     
  }
 
  .con2 {
@@ -431,7 +436,7 @@
      }
 
      .logo {
-       width: 200px;
+       width: 150px;
          padding: 0 0 270px 0;
      }
 
@@ -606,10 +611,10 @@
      }
 
      .img1 {
-         width:220px;
-         height: 220px;
+         width:230px;
+         height: 230px;
         right: 0;
-         top: 120px;
+         top: 90px;
          
      }
 
