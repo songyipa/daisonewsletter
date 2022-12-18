@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+    color: #3B3B3B;
+    letter-spacing: -0.5px;
+}
+
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+@import url('https://fonts.cdnfonts.com/css/akrobat');
+
+
+
+body {
+    font-size: 14px;
+    font-weight: 600;
+    background: #ffffff;
+    font-family: 'Pretendard', 'Apple SD Gothic Neo', Sans-serif;
+    color: #3B3B3B;
+    margin: 0 auto;
+
+}
+
+header {
+    background: #eb0000;
+    color: #fff;
+}
+
+
+
+header img {
+    width: 30px;
+    margin-bottom: 100px;
+}
+.bt{
+    color: #fff;
+        position: absolute;
+    right: 15px;
+
+    cursor:pointer;
+    font-size:30px;
+}
+
+.bt2{
+    color: #eb0000;
+        position: absolute;
+    right: 15px;
+    cursor:pointer;
+    font-size:30px;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding: 80px 15px 15px 15px;
+    display: none;
+}
+
+.sidenav a {
+  text-decoration: none;
+  transition: 0.3s;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 15px;
+  right:15px;
+  font-size: 36px;
+  padding-left: 50px;
+    border: none;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    font-size: 15px;
+    max-width: 600px;
+    font-weight: 500;
+}
+
+th {
+    padding: 12px 0;
+    border-bottom: 1px solid #ebebeb;
+    margin-top: 10px;
+    color: #9a9a9a;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-weight:00;
+}
+
+th a{
+    font-weight: 500;
+}
+
+th span {
+    color: #D82727;
+    font-weight: 900;
+    padding-right: 5px;
+    font-family: 'Akrobat ExtraBold', sans-serif;
+    padding-right: 10px;
+}
+
+
+th img {
+    float: right;
+    width: 7px;
+    padding-top: 2px;
+}
+
+
+
+h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+h2 {
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+header p {
+    color: #fff;
+    line-height: 19px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+
+
+
+.con {}
+
+.con li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.con li span {
+    color: #eb0000;
+    font-family: 'Akrobat', sans-serif;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.con li {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.title span:nth-child(1){
+    color: #eb0000;
+        font-family: 'Akrobat', sans-serif;
+    font-size: 35px;  
+}
+.title span:nth-child(2){
+    width: 30px;
+    display: inline-block;
+    border-bottom: 1px solid #3B3B3B;
+    margin-left: 5px;
+}
+
+.title span:nth-child(3){
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.title p:nth-child(2){
+    font-size: 25px;
+    font-weight: 800;
+    color: #eb0000;
+}
+
+.title_sub{
+    border-left: 7px solid #eb0000;
+    padding-left: 10px;
+}
+.title_sub p:nth-child(1){
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 3px;
+}
+.title_sub p:nth-child(2){
+    font-size: 15px;
+    font-weight:500;
+}
+
+
+.product-title {
+    margin: 20px 0;
+    text-align: center;
+    display: table;
+    width: 100%;
+    max-height: 200px;
+}
+
+.product-img-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.qa p:nth-child(1){
+    padding: 10px;
+    border-top: 1px solid #eb0000;
+    font-size: 15px;
+    font-weight: 800;
+    color: #eb0000;
+}
+.qa p:nth-child(2){
+        padding: 10px;
+    border-top: 1px solid #ebebeb;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: -1px;
+}
+
+.qa:last-child{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.inner_back{
+    background: #ebebeb;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.inner_back_in{
+            width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+        padding: 15px 15px 50px 15px;
+        height: 450px;
+}
+
+.gradient{
+  width: 100%;background: linear-gradient( to top, rgba(255, 255, 255, 0), #ffffff 80% );height: 500px;position: absolute;
+}
+
+h4{
+    font-size: 29px; 
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.t1{
+        text-align: right;
+    margin-bottom: 100px;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 800;
+    color: #868686;
+}
+
+.t2{
+    font-size: 16px;
+    font-weight: 800;
+    color: #eb0000;
+    padding: 5px 0;
+}
+.t3{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 22px;
+    letter-spacing: -1px;
+    padding: 5px 0 50px 0;
+}
+
+.next{
+    height: 110px;
+    background: #eb0000;
+    padding: 15px;
+}
+
+.next p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+@media all and (max-width:767px) {
+    .pho {
+        margin-top: -60px;
+        width: 100%;
+        max-width: 300px;
+        background-image: url(../img/p0rfhcgk3v.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        position: absolute;
+        right: 0;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        color: #eb0000;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .inner {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+        padding: 15px 15px 50px 15px;
+    }
+    
+    .pho_t{
+        margin-top: 250px;
+        margin-bottom: 100px;
+        text-align: right;
+        font-size: 10px;
+    }
+
+}
+
+@media all and (min-width:768px) {
+    .pho {
+        margin-top: -290px;
+        width: 100%;
+        max-width: 300px;
+        background-image: url(../img/p0rfhcgk3v.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 300px;
+        position: absolute;
+        right: 0;
+    }
+
+    h3 {
+        margin-bottom: 10px;
+        color: #eb0000;
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .inner {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+        padding: 15px 15px 20px 15px;
+    }
+    
+        .pho_t{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        text-align: right;
+        font-size: 10px;
+    }
+}
